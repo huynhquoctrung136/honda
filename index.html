@@ -6,9 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/swiper.min.css">
@@ -18,19 +19,50 @@
 </head>
 
 <body>
+    <!-- NAVBAR -->
+    <header id="header">
+        <nav class="navbar navbar-expand-sm navbar-light">
+            <a class="no-border navbar-brand" href="#">
+                <img src="img/logo.png" alt="logo-brand" />
+            </a>
+            <a href="#">VEHICLES <i class="fas fa-angle-down"></i></a>
+            <a href="#">SHOPPING TOOLS <i class="fas fa-angle-down"></i></a>
+            <div class="header__right d-flex ml-auto">
+                <a class="nav-link no-border" href="#"><i class="fa fa-map-marker-alt"></i> Dealers </a>
+                <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#navbar-menu"
+                    aria-controls="navbar-menu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar-menu">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link no-border" href="#">Owners</a></li>
+                        <li class="nav-item"><a class="nav-link no-border" href="#">Discovers</a></li>
+                        <li class="nav-item"><a class="nav-link no-border" href="#">English</a></li>
+                        <li class="nav-item"><a class="d-flex align-items-center nav-link" href="#"><i
+                                    class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+    <!-- END NAVBAR -->
 
 
 
 
-    
+
+
+
+
     <script type="text/javascript" src="js/jquery.min.js"></script>
-	<script type="text/javascript" src="js/popper.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/jquery.mCustomScrollbar.js"></script>
-	<script type="text/javascript" src="js/swiper.min.js"></script>
-	<script type="text/javascript" src="js/wow.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mCustomScrollbar.js"></script>
+    <script type="text/javascript" src="js/swiper.min.js"></script>
+    <script type="text/javascript" src="js/wow.min.js"></script>
     <!-- MAIN JS -->
-	<script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
 </body>
 
 </html>
