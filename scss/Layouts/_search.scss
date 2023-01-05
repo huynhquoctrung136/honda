@@ -1,0 +1,30 @@
+/** @format */
+
+.search-field {
+  background-color: $color-grey;
+  padding: $pd-1 $pd-6;
+  position: relative;
+  i {
+    color: $color-blue-200;
+    font-size: $font-size-2;
+    transform: translateY(-3px);
+  }
+  input {
+    width: 87%;
+    height: 4.5rem;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-weight: $font-weight-300;
+    font-size: $font-size-3;
+    color: $color-blue-200;
+    padding-top: $pd-1;
+    &::placeholder {
+      font-size: $font-size-3;
+    }
+  }
+  &::before {
+    @include arrow(unset, 1%);
+    border-bottom-color: $color-grey;
+  }
+}
