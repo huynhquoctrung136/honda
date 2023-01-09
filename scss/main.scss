@@ -7,6 +7,8 @@
 //Base
 @import "Base/reset";
 @import "Base/customize";
+@import "Base/intro";
+@import "Base/our-vehicles";
 
 //Layouts
 @import "Layouts/header";
@@ -21,7 +23,7 @@
 @import "Pages/intro";
 
 //Responsive
-@import "Responsive/xsScreen";
-@import "Responsive/smScreen";
-@import "Responsive/mdScreen";
 @import "Responsive/lgScreen";
+@import "Responsive/mdScreen";
+@import "Responsive/smScreen";
+@import "Responsive/xsScreen";

@@ -1,0 +1,17 @@
+/** @format */
+
+#our-vehicles {
+  color: $color-dark-blue-200;
+  font-size: $font-size-4;
+  margin: $mg-3 0 $mg-5 0;
+  .carousel-control-prev,
+  .carousel-control-next {
+    i {
+      font-size: $font-size-5;
+      padding: $pd-6 $pd-5;
+      background-color: $color-blue-overlay;
+      border-radius: 0.9rem;
+
+    }
+  }
+}

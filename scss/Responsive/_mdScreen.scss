@@ -1,27 +1,65 @@
-#navbar{
-	a{
-		@media screen and (max-width:992px){
-			padding: $pd-2 $pd-2;
-		}
-	}
-	.nav-item .nav-link{
-		@media screen and (max-width:992px){
-			padding: $pd-2 $pd-2;
-		}
-	}
-	a:first-child{
-		@media screen and (max-width:992px){
-			padding:0;
-		}
-	}
+/** @format */
+
+#navbar {
+  a {
+    @media screen and (max-width: 992px) {
+      padding: $pd-2 $pd-2;
+    }
+  }
+  .nav-item .nav-link {
+    @media screen and (max-width: 992px) {
+      padding: $pd-2 $pd-2;
+    }
+  }
+  a:first-child {
+    @media screen and (max-width: 992px) {
+      padding: 0;
+    }
+  }
 }
-#search-area{
-	@media screen and (max-width:992px){
-		padding:$pd-2 $pd-1;
-	}
-	input{
-		@media screen and (max-width:992px){
-			width:80%;
-		}
-	}
+#search-area {
+  @media screen and (max-width: 992px) {
+    padding: $pd-2 $pd-1;
+  }
+  input {
+    @media screen and (max-width: 992px) {
+      width: 80%;
+    }
+  }
+}
+
+#swiper-slider {
+  @media screen and (max-width: 992px) {
+    margin-top: $mg-4;
+  }
+  @media screen and (max-width: 992px) {
+    height: 600px;
+  }
+  .swiper-container {
+    @media screen and (max-width: 992px) {
+      height: 400px;
+    }
+    .swiper-wrapper {
+      @media screen and (max-width: 992px) {
+        height: 90%;
+      }
+    }
+  }
+}
+
+//Intro
+.intro {
+  .intro__container {
+    .intro__right {
+      @media screen and (max-width: 992px) {
+        background-image: url(../../img/intro-2-xs.jpg) !important;
+      }
+      .intro__right__content{
+				@media screen and (max-width:992px){
+					width:80%;
+					left:10%
+				}
+			}
+    }
+  }
 }
